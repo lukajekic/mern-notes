@@ -12,7 +12,7 @@ try {
     next()
 } catch (error) {
     console.log('server  error')
-    res.satus(500)
+    res.status(500)
 }
 }
 
